@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+main{
+    max-width: 800px;
+}
+#jatekter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gird-gap:10px;
+}
+#jatekter div img{
+    width: 100%;
+}
+#jatekter div{
+    padding: 10px;
+    background-color: pink;
+}
